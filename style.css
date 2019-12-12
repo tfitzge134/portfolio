@@ -1,0 +1,53 @@
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        color: white;
+        -webkit-animation-name: example;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-delay: 2s;
+        /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 4s;
+        animation-delay: 2s;
+    }
+    /* Safari 4.0 - 8.0 */
+    
+    @-webkit-keyframes example {
+        0% {
+            left: 0px;
+            top: 0px;
+        }
+    }
+    
+    25% {
+        left: 10px;
+        top: 0px;
+    }
+    /* Standard syntax */
+    
+    @keyframes example {
+        0% {
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+            left: 200px;
+            top: 0px;
+        }
+    }
+    
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        text-align: left;
+    }
+    
+    body {
+        background-color: black;
+    }
+    
+    p {
+        color: white;
+    }
